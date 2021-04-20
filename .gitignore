@@ -1,0 +1,106 @@
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+# Node
+node_modules/
+.npm
+.node_repl_history
+
+
+# Cache
+.eslintcache
+.cache
+__pycache__/
+*.py[cod]
+
+
+# Configs
+venv
+local_settings.py
+
+
+# Artifacts
+*.tgz
+.yarn-integrity
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+!frontend/common/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Translations
+*.mo
+*.pot
+
+
+# Django stuff:
+db.sqlite3
+db.sqlite3-journal
+staticroot
+
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+# celery beat schedule file
+celerybeat-schedule
+
+.DS_Store
+node_modules
+webpack-stats.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.*~
+*.bak
+settings.env
+*.swp
+
+# Docker
+docker/psql
+docker/server.crt
+docker/server.key
+
+# Django
+media
